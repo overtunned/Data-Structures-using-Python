@@ -1,7 +1,7 @@
 def tot(n):
     result = n
     p = 2
-    while p <= n**0.5:
+    while p <= n ** 0.5:
 
         if n % p == 0:
             result = result * (1.0 - (1.0 / float(p)))
