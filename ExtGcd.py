@@ -11,10 +11,10 @@ def xgcd(a, b):
         b = a % b  # getting remainder
         a = temp
         temp = x
-        x = t1 - quotient*x
+        x = t1 - quotient * x
         t1 = temp
         temp = y
-        y = t2-quotient*y
+        y = t2 - quotient * y
         t2 = temp
     print(a)
     return [t1, t2]
